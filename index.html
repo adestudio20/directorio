@@ -3,19 +3,39 @@
 <title>index</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:50px">Directorio Local</h1>
-    <p>By Adestudio</p>
-  </div>
-</div>
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
-<p>hello world</p>
+	<div class="header-container">
+		<div class="header">
+			<div class="header-navigation" id="myTopnav">
+				<ul>
+				  <li><a class="active">Inicio</a></li>
+				  <li><a href="#comida">Comida</a></li>
+				  <li><a href="#servicios">Servicios</a></li>
+				  <li><a href="#accesorios">Accesorios</a></li>
+				  <li><a href="#contact">Contacto</a></li>
+				  <li><a href="javascript:void(0);" class="icon" onclick="openMenu()">
+					<i class="fa fa-bars"></i>
+				  </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="hero-image">
+		  <div class="hero-text">
+			<h1 style="font-size:50px">Directorio Local</h1>
+			<p>By Adestudio</p>
+		  </div>
+		</div>
+		<div class="home-featured grid">
+			<div class="grid-col grid-col--1"></div>
+			<div class="grid-col grid-col--2"></div>
+			<div class="grid-col grid-col--3"></div>
+		</div>
+	</div>
+	<script src="js/navbar.js">
+	</script>
 </body>
 </html>
